@@ -13679,10 +13679,10 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
-<text x="104.14" y="109.22" size="1.778" layer="97">VCC is 2.8 to 5V</text>
+<text x="104.14" y="111.76" size="1.778" layer="97">VCC is 2.8 to 5V</text>
 <text x="241.3" y="7.62" size="1.778" layer="97">v2.0</text>
 <text x="172.72" y="10.16" size="1.778" layer="97">N. Seidle</text>
-<text x="91.44" y="78.74" size="1.778" layer="97">Works with ID-20LA, ID-12LA, ID-2LA</text>
+<text x="91.44" y="114.3" size="1.778" layer="97">Works with ID-20LA, ID-12LA, ID-2LA</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="116.84" y="96.52"/>
@@ -13758,17 +13758,17 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="99.06" y1="88.9" x2="104.14" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="N$2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VCC"/>
 <pinref part="JP4" gate="G$1" pin="6"/>
+<pinref part="U1" gate="G$1" pin="VCC"/>
 <wire x1="104.14" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="N$3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
 <wire x1="129.54" y1="99.06" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
