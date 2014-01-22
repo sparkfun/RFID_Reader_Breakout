@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -144,6 +144,7 @@
 <wire x1="10.541" y1="-12.7" x2="7.239" y2="-12.7" width="0.2032" layer="20" curve="180"/>
 <wire x1="-7.239" y1="-12.7" x2="-10.541" y2="-12.7" width="0.2032" layer="20" curve="180"/>
 <text x="-5.08" y="-30.48" size="1.778" layer="51" font="vector" ratio="15">N. Seidle</text>
+<text x="1.27" y="-11.43" size="1.27" layer="16" font="vector" ratio="20" rot="MR0">v20</text>
 </plain>
 <libraries>
 <library name="ID Innovations">
@@ -1626,28 +1627,40 @@ design rules under a new name.
 </signal>
 </signals>
 <errors>
-<approved hash="4,1,2a37a09fafc32f9b"/>
-<approved hash="4,1,2303a053b9eb22c3"/>
-<approved hash="4,1,22cfa867a1cb2193"/>
-<approved hash="4,1,2203a153ac9337bb"/>
-<approved hash="4,1,236fa13faeeb20bb"/>
 <approved hash="4,1,1ef4a922a0e31f3f"/>
 <approved hash="4,1,d2bd5d9f55c72ccc"/>
 <approved hash="4,1,2d4f5d6d501cd617"/>
 <approved hash="4,1,3582b95cae9f363b"/>
 <approved hash="4,1,26f291249cef2333"/>
 <approved hash="4,1,368cba52b5eb2d4f"/>
-<approved hash="4,16,2303a053b9eb22c3"/>
-<approved hash="4,16,2a37a09fafc32f9b"/>
-<approved hash="4,16,236fa13faeeb20bb"/>
-<approved hash="4,16,2203a153ac9337bb"/>
-<approved hash="4,16,22cfa867a1cb2193"/>
 <approved hash="4,16,368cba52b5eb2d4f"/>
 <approved hash="4,16,26f291249cef2333"/>
 <approved hash="4,16,d2bd5d9f55c72ccc"/>
 <approved hash="4,16,3582b95cae9f363b"/>
 <approved hash="4,16,2d4f5d6d501cd617"/>
 <approved hash="4,16,1ef4a922a0e31f3f"/>
+<approved hash="4,1,2a37a09fafc32f9b"/>
+<approved hash="4,1,1e3394939b0b1f83"/>
+<approved hash="4,1,2303a053b9eb22c3"/>
+<approved hash="4,1,236fa13faeeb20bb"/>
+<approved hash="4,1,22cfa867a1cb2193"/>
+<approved hash="4,1,2203a153ac9337bb"/>
+<approved hash="4,1,29b7ae9fa1c32c1b"/>
+<approved hash="4,1,214fa667afcb2213"/>
+<approved hash="4,1,2083ae53b7eb2143"/>
+<approved hash="4,1,2183af53a293343b"/>
+<approved hash="4,1,20efaf3fa0eb233b"/>
+<approved hash="4,16,22cfa867a1cb2193"/>
+<approved hash="4,16,1e3394939b0b1f83"/>
+<approved hash="4,16,2303a053b9eb22c3"/>
+<approved hash="4,16,236fa13faeeb20bb"/>
+<approved hash="4,16,2203a153ac9337bb"/>
+<approved hash="4,16,2a37a09fafc32f9b"/>
+<approved hash="4,16,2183af53a293343b"/>
+<approved hash="4,16,20efaf3fa0eb233b"/>
+<approved hash="4,16,2083ae53b7eb2143"/>
+<approved hash="4,16,214fa667afcb2213"/>
+<approved hash="4,16,29b7ae9fa1c32c1b"/>
 </errors>
 </board>
 </drawing>
